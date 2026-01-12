@@ -4,24 +4,19 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
-  /* 2. Global Reset - wrapped in base so utility classes (p-5, etc.) win */
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  /* 3. Body Styling */
   body {
     @apply transition-colors duration-300 antialiased font-sans;
-    /* Sets the default Light Mode background and text */
     background-color: theme("colors.white");
     color: theme("colors.slate.900");
   }
 
-  /* 4. Dark Mode Body Override */
   .dark body {
-    /* Sets the Dark Mode background and text */
     background-color: theme("colors.slate.950");
     color: theme("colors.white");
   }

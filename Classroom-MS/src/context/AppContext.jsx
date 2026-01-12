@@ -1,6 +1,6 @@
 import { createContext, useContext, useRef, useState, useMemo } from "react";
 
-const AppContext = createContext();
+export const AppContext = createContext();
 
 function AppProvider({ children }) {
   const [students, setStudents] = useState([]);
