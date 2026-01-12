@@ -19,7 +19,7 @@ export default function HeaderComponent() {
 
       <div className="flex items-center gap-4">
         {/* Theme Toggle Button */}
-        <button
+        <Button
           onClick={toggleTheme}
           className="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-yellow-400 hover:ring-2 hover:ring-slate-300 dark:hover:ring-slate-600 transition-all"
           aria-label="Toggle Theme"
@@ -57,7 +57,7 @@ export default function HeaderComponent() {
               />
             </svg>
           )}
-        </button>
+        </Button>
 
         {/* Focus Input Action */}
         <Button

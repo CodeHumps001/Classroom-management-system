@@ -15,7 +15,7 @@ export default function StudentCard() {
           <div
             key={student.id}
             /* Added dark:bg-slate-800 and dark:border-slate-700 */
-            className="flex items-center justify-between p-4 bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl shadow-sm hover:shadow-md transition-all h-30 w-full"
+            className="flex items-center justify-between p-4 bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl shadow-sm hover:shadow-md transition-all h-30 w-100 "
           >
             <div className="flex flex-col">
               {/* Added dark:text-white */}

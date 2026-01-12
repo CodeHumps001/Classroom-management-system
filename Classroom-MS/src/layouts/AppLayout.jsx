@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useApp } from "../context/AppContext";
+import { AppProvider, useApp } from "../context/AppContext";
 import FormLayout from "./FormLayout";
 import Overview from "./OverviewLayout";
 import StudentCard from "./StudentCardLayout";
